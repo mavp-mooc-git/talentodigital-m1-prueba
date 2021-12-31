@@ -18,9 +18,15 @@ body {
   font-weight: 500;
 }
 
+/***** Background colors *****/
+.navbar,
+.card,
+.footer {
+  background-color: #17a3b8;
+}
+
 /***** Navbar *****/
 .navbar {
-  background-color: #17a3b8;
   position: fixed;
   width: 100vw;  /* view-width */
   z-index: 1;
@@ -43,11 +49,6 @@ body {
 }
 
 /***** Destacados *****/
-.card {
-  background-color: #17a3b8;
-  margin-bottom: 3rem;
-}
-
 .card,
 .card img {
   max-width: 30rem;
@@ -55,4 +56,10 @@ body {
 
 .card img {
   max-height: 17rem;
+}
+
+/***** Footer *****/
+.footer a {
+  color: white;
+  text-decoration: none;
 }

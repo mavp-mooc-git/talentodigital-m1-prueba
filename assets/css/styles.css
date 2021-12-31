@@ -20,7 +20,7 @@ body {
 
 /***** Navbar *****/
 .navbar {
-  background-color: var(--bs-blue);
+  background-color: #17a3b8;
   position: fixed;
   width: 100vw;  /* view-width */
   z-index: 1;
@@ -29,5 +29,15 @@ body {
 .navbar-brand img {
   height: 4.4rem;
   width: 4.4rem;
+}
+
+/***** common *****/
+.line {
+  color: #17a3b8;
+}
+
+/***** Nosotros *****/
+.icon.fas {
+  background: #17a3b8;
 }
 

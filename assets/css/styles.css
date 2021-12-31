@@ -18,3 +18,16 @@ body {
   font-weight: 500;
 }
 
+/***** Navbar *****/
+.navbar {
+  background-color: var(--bs-blue);
+  position: fixed;
+  width: 100vw;  /* view-width */
+  z-index: 1;
+}
+
+.navbar-brand img {
+  height: 4.4rem;
+  width: 4.4rem;
+}
+

@@ -8,6 +8,8 @@
 /* define base unit, relative dimensions: rem */
 html {
   font-size: 10px;
+  /* disabled bootstrap 5 scroll-behavior property */
+  scroll-behavior: auto !important;
 }
 
 body {
@@ -25,7 +27,7 @@ body {
   background-color: #17a3b8;
 }
 
-/***** Navbar *****/
+/***** Navbar section *****/
 .navbar {
   position: fixed;
   width: 100vw;  /* view-width */
@@ -40,15 +42,14 @@ body {
 /***** common *****/
 .line {
   color: #17a3b8;
-  /*margin-bottom: 3rem;*/
 }
 
-/***** Nosotros *****/
+/***** Nosotros section *****/
 .icon.fas {
   background: #17a3b8;
 }
 
-/***** Destacados *****/
+/***** Destacados section *****/
 .card,
 .card img {
   max-width: 30rem;
@@ -58,8 +59,31 @@ body {
   max-height: 17rem;
 }
 
-/***** Footer *****/
+/***** Contacto section *****/
+.btn-contact {
+  all: unset;
+  font-family: Helvetica, Arial, sans-serif;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-color: #0445AF;
+  color: #FFFFFF;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 0 33px;
+  font-weight: bold;
+  height: 50px;
+  cursor: pointer;
+  line-height: 50px;
+  text-align: center;
+  margin: 0;
+  text-decoration: none;
+}
+
+/***** Footer section *****/
 .footer a {
-  color: white;
+  color: var(--bs-light);
   text-decoration: none;
 }

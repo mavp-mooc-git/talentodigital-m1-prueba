@@ -39,9 +39,7 @@ través de las distintas unidades.
 
 Para esto, puedes guiarte por la siguiente estructura:
 
-![maqueta](img)
-
-[img]: ./assets/img/screenshot.jpg "maqueta de ejemplo"
+![maqueta](./assets/img/screenshot.jpg "maqueta de ejemplo")
 
 
 La página debe contener las siguientes secciones:

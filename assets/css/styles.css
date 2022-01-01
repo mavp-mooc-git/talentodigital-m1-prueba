@@ -29,9 +29,10 @@ body {
 
 /***** Navbar section *****/
 .navbar {
-  position: fixed;
-  width: 100vw;  /* view-width */
-  z-index: 1;
+  min-height: 5.1rem;
+  /*position: fixed;*/
+  /*width: 100vw;  /* view-width */
+  /*z-index: 1;*/
 }
 
 .navbar-brand img {
@@ -60,7 +61,7 @@ body {
 }
 
 /***** Contacto section *****/
-.btn-contact {
+/*.btn-contact {
   all: unset;
   font-family: Helvetica, Arial, sans-serif;
   display: inline-block;
@@ -80,7 +81,7 @@ body {
   text-align: center;
   margin: 0;
   text-decoration: none;
-}
+}*/
 
 /***** Footer section *****/
 .footer a {
